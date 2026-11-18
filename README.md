@@ -62,12 +62,12 @@ See the [customization guide](docs/customization-guide.md) for exact editing exa
 ## Deployment
 
 1. Keep a copy of the current production Worker for rollback.
-2. Open the delivered `worker.js` in a text editor and replace the existing module-style Cloudflare Worker script.
+2. Open the [worker.js](worker.js) in a text editor and replace the existing module-style Cloudflare Worker script.
 3. Preview before deploying, retaining the existing domain and route configuration.
 4. Check desktop and mobile layouts, all question controls, both project dialogs, the CSS fallback, WebGL rendering and physical phone shake on a compatible device.
 5. Deploy only after the preview passes; restore the previous Worker if needed.
 
-**Repository status:** This repository currently documents the v2 refactor. The full Worker source and original backup are separate delivery files and have not been committed here. The documentation is not a production deployment or a confirmation of which revision is live.
+**Repository status:** The complete v2.0.0 Worker is available in [worker.js](worker.js). The original pre-refactor backup is kept separately. This repository does not automatically deploy the live site or confirm which revision is in production.
 
 ## Version history
 
